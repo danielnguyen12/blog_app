@@ -22,7 +22,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV["DATABASE_URL"] %>
-  database: railwayapp_production
-  username: railwayapp
-  password: <%= ENV["RAILWAYAPP_DATABASE_PASSWORD"] %>
+  postgresql: //postgres:8S9kHBEq4dxEQ466YDl8@containers-us-west-128.railway.app:8010/railway
