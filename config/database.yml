@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  postgresql: //postgres:8S9kHBEq4dxEQ466YDl8@containers-us-west-128.railway.app:8010/railway
+  url: postgresql://postgres:8S9kHBEq4dxEQ466YDl8@containers-us-west-128.railway.app:8010/railway
